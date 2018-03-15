@@ -1,0 +1,304 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Lato';
+}
+
+footer#footer {
+    padding: 30px 0 30px;
+    background: #252B34;
+    color: #fff;
+}
+
+footer#footer ul li a {
+    color: #ddd;
+    padding: 5px 0;
+    display: block;
+}
+
+p.description {
+    margin-left: 0em !important;
+    text-align: justify;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.25);
+     border-color: rgba(255, 255, 255, 0.50); 
+    color: #fff;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    /*margin: 0 auto -60px;*/
+    padding: 0 0 0px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.image-hero {
+    width: auto;
+    max-width: 100%;
+}
+
+.wrap h3,
+.wrap p {
+    font-weight: 800;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+#particles {
+    padding: 70px 0px;
+    color: #fff;
+    background: linear-gradient(180deg,#66a5ff,#0069ff);
+}
+
+#particles canvas {
+    position: absolute;
+    /*z-index: -1;*/
+    opacity: 0.2;
+}
+
+#particles header .title {
+    font-size: 45px;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#particles p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+#particles a {
+    cursor: pointer;
+}
+
+#services {
+    padding: 20px 0px 50px 0px;
+    background: #fff;
+    color: #333;
+}
+
+#features-wrapper {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px;
+    background: linear-gradient(117deg,#0069ff,#00cd8d);
+}
+
+#pricing a:link {
+    color: #fff !important; 
+}
+
+#features-wrapper p {
+    margin-left: 0px;
+}
+
+#features-wrapper .icon img {
+    margin: auto;
+    padding: 10px 0px;
+}
+
+#technology header h2,
+#pricing header h2.title,
+#services header h2,
+#portfolio header h2 {
+    font-size: 45px;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+#portfolio {
+    padding: 20px 0px 50px 0px;
+}
+
+#portfolio .row {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#portfolio .row h3 {
+    display: inline-block;
+    /*border-bottom: 1px solid #333;*/
+}
+
+#portfolio .row h3 a:hover {
+    text-decoration: none;
+}
+
+#portfolio .row p {
+    margin-left: 0px;
+    text-align: justify;
+}
+
+#portfolio a {
+    border-bottom: 1px solid #337ab7;
+}
+
+#portfolio a:hover { 
+    text-decoration: none;
+}
+
+#services .intro {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#services .feature a {
+    color: #337ab7;
+}
+
+#services .feature a img {
+    opacity: 0.7;
+}
+
+#services .feature h3 {
+    margin-top: 30px;
+}
+
+#pricing {
+    padding: 20px 0px 50px 0px;
+}
+
+#technology {
+    padding: 30px 0px;
+}
+
+#technology ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#technology ul li img {
+    opacity: 0.8;
+}
+
+#technology ul li img:hover {
+    opacity: 1;
+}
+
+footer#footer .form-group .form-control {
+    border-radius: 0px;
+    background: #1B1F25;
+    border-color: #2F3743;
+    color: #fff;
+    box-shadow: none;
+}
+
+footer#footer .btn-primary {
+    border-radius: 0px;
+}
+
+.cd-pricing-container {
+    background: #f7f7f7
+}
